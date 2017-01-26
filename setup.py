@@ -2,7 +2,7 @@ from setuptools import setup
 import simple_history
 
 tests_require = [
-    'Django>=1.4', 'WebTest==2.0.18', 'django-webtest==1.7.8', 'mock==1.0.1']
+    'Django>=1.4', 'WebTest==2.0.18', 'django-webtest==1.7.8', 'mock==1.0.1', 'six>=1.10.0']
 try:
     from unittest import skipUnless
 except ImportError:  # Python 2.6 compatibility
